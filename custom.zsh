@@ -1,6 +1,11 @@
 ZSH_THEME="ys"
 # plugins=(git)
 
+export EDITOR='vim'
+
+# Tmuxinator
+# Install ruby by rvm: http://goo.gl/e45ItD
+
 eval "$(fasd --init auto)"
 # Thus fasd comes with some useful aliases by default:
 # alias a='fasd -a'        # any
