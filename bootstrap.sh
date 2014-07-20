@@ -2,22 +2,22 @@
 
 # Vagrant default box(Ubuntu 12.04LTS)
 # Obtaining a recent version of Node or installing on older Ubuntu
-apt-get install python-software-properties
-add-apt-repository -y ppa:chris-lea/node.js
+sudo apt-get install python-software-properties
+sudo add-apt-repository -y ppa:chris-lea/node.js
 # Latest Tmux
-add-apt-repository -y ppa:kalakris/tmux
+sudo add-apt-repository -y ppa:kalakris/tmux
 
-apt-get update
+sudo apt-get update
 
-apt-get install -y zsh
-apt-get install -y git
-apt-get install -y vim
-apt-get install -y nodejs
-apt-get install -y tmux
-apt-get install -y xclip
+sudo apt-get install -y zsh
+sudo apt-get install -y git
+sudo apt-get install -y vim
+sudo apt-get install -y nodejs
+sudo apt-get install -y tmux
+sudo apt-get install -y xclip
 
 # npm
-# npm install -g cnpm
+# sudo npm install -g cnpm
 
 # User target
 cd /home/vagrant/
@@ -33,8 +33,8 @@ ln -s dotfiles/.vimrc ./
 ln -s dotfiles/.tmux.conf ./
 
 # Vim
-mkdir ./.vim/backups
-mkdir ./.vim/swaps
+mkdir -p ./.vim/backups
+mkdir -p ./.vim/swaps
 git clone https://github.com/gmarik/Vundle.vim.git ./.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
