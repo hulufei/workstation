@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 
-# Vagrant default box(Ubuntu 12.04LTS)
-# Obtaining a recent version of Node or installing on older Ubuntu
-sudo apt-get install python-software-properties
-sudo add-apt-repository -y ppa:chris-lea/node.js
-# Latest Tmux
-sudo add-apt-repository -y ppa:kalakris/tmux
-
+# Vagrant box(Ubuntu 14.04)
 sudo apt-get update
 
 sudo apt-get install -y zsh
@@ -52,5 +46,5 @@ ssh-add ./.ssh/id_rsa
 # fasd (alternative autojump)
 git clone https://github.com/clvv/fasd.git
 cd fasd
-make install
+sudo make install
 cd ..
