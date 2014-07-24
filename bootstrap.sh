@@ -31,6 +31,12 @@ mkdir -p ./.vim/backups
 mkdir -p ./.vim/swaps
 git clone https://github.com/gmarik/Vundle.vim.git ./.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+# Vim - tagbar(js)
+sudo apt-get install -y exuberant-ctags
+cd ./.vim/bundle/tern_for_vim
+npm install
+cd ../../../
+sudo npm install -g git://github.com/ramitos/jsctags.git
 
 # git
 git config --global user.email 'f.calabash@gmail.com'
