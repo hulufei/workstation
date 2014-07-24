@@ -6,7 +6,8 @@ sudo apt-get update
 sudo apt-get install -y zsh
 sudo apt-get install -y git
 sudo apt-get install -y vim
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs-legacy
+sudo apt-get install -y npm
 sudo apt-get install -y tmux
 sudo apt-get install -y xclip
 
