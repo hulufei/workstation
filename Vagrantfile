@@ -47,7 +47,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./share", "/home/vagrant/share", create: true
+  config.vm.synced_folder "./share", "/home/vagrant/share", create: true,
+	  type: "rsync", rsync__exclude: ".git/"
   # Windows path example
   # config.vm.synced_folder "C:/Users/Administrator/Dropbox", "/home/vagrant/dropbox"
 
