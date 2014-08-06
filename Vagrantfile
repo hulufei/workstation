@@ -50,7 +50,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder "./share", "/home/vagrant/share", create: true,
 	  type: "rsync", rsync__exclude: ".git/"
   # Windows path example
-  # config.vm.synced_folder "C:/Users/Administrator/Dropbox", "/home/vagrant/dropbox"
+  # config.vm.synced_folder "C:/Users/Administrator/Dropbox", "/home/vagrant/dropbox", mount_options: ["dmode=775,fmode=664"]
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
