@@ -11,8 +11,13 @@ sudo apt-get install -y npm
 sudo apt-get install -y tmux
 sudo apt-get install -y xclip
 
+# TODO: tmuxinator
+# sudo apt-get install -y ruby
+
 # npm
 # sudo npm install -g cnpm
+# Google translate in terminal
+# sudo npm install -g normit
 
 # User target
 cd /home/vagrant/
