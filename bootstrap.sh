@@ -13,6 +13,7 @@ sudo apt-get install -y xclip
 
 # npm
 # sudo npm install -g cnpm
+sudo npm install -g jshint
 
 # User target
 cd /home/vagrant/
