@@ -11,6 +11,9 @@ sudo apt-get install -y npm
 sudo apt-get install -y tmux
 sudo apt-get install -y xclip
 
+sudo apt-get install -y ruby
+# sudo gem install tmuxinator
+
 # npm
 # sudo npm install -g cnpm
 sudo npm install -g jshint
