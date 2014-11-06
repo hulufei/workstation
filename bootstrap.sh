@@ -6,6 +6,7 @@ sudo apt-get update
 sudo apt-get install -y zsh
 sudo apt-get install -y git
 sudo apt-get install -y vim
+sudo apt-get install -y python-pip
 sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
 sudo apt-get install -y tmux
@@ -17,6 +18,9 @@ sudo apt-get install -y ruby
 # npm
 # sudo npm install -g cnpm
 sudo npm install -g jshint
+
+# pip
+sudo pip install cheat
 
 # User target
 cd /home/vagrant/
