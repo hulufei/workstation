@@ -1,5 +1,6 @@
 sudo apt-get install -y nginx
-sudo python get-pip.py
+# sudo python get-pip.py
+sud apt-get install -y python-pip
 sudo pip install virtualenv
 sudo pip install git-up
 
