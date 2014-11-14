@@ -21,6 +21,7 @@ alias v='f -e vim' # quick opening files with vim
 # Vim visual select not highlighting in tmux
 # http://goo.gl/51DTk
 alias tmux='tmux -2'
+alias ack='ack-grep'
 
 # pbcopy / pbpaste like OS X in Ubuntu
 alias pbcopy='xclip -selection clipboard'
