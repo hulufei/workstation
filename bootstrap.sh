@@ -41,6 +41,7 @@ mkdir -p ./.vim/swaps
 git clone https://github.com/gmarik/Vundle.vim.git ./.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 # Vim - tagbar(js)
+sudo apt-get install -y ack-grep
 sudo apt-get install -y exuberant-ctags
 cd ./.vim/bundle/tern_for_vim
 npm install
