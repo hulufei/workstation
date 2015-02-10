@@ -64,3 +64,12 @@ git clone https://github.com/clvv/fasd.git
 cd fasd
 sudo make install
 cd ..
+
+# Dropbox Setup
+# https://www.dropbox.com/install?os=lnx
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+wget https://www.dropbox.com/download\?dl\=packages/dropbox.py -O dropbox.py
+chmod +x dropbox.py
+sudo ln -s /home/vagrant/dropbox.py /usr/local/bin/box
+# Initial run dropbox daemon, link computer
+.dropbox-dist/dropboxd
