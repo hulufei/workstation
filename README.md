@@ -3,6 +3,8 @@ workstation
 
 Workstation on vagrant
 
+![Screenshot](/../gh-pages/workstation.png?raw=true)
+
 ## Notes
 
 Windows Putty Font: Everson Mono, bold, 14pt
